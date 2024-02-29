@@ -1,0 +1,47 @@
+{
+  "name": "jubo-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.3",
+    "@emotion/styled": "11.11.0",
+    "@mui/material": "5.15.6",
+    "axios": "1.6.7",
+    "eslint": "^8.57.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "9.1.0",
+    "react-router-dom": "6.21.3",
+    "react-scripts": "3.0.1",
+    "redux": "5.0.1",
+    "redux-thunk": "3.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "7.33.2",
+    "prettier": "3.2.5"
+  }
+}
